@@ -77,21 +77,6 @@ WSGI_APPLICATION = 'Youtube_API.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'youtube_video',
-        'USER' : 'root',
-        'PASSWORD': '9j(B9hbU',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'OPTIONS': {
-            "autocommit": True
-        }
-    }
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
